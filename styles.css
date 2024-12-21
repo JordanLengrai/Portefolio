@@ -38,7 +38,7 @@ body {
     100% { background-position: 0% 50%; }
 }
 
-/* Stars Background */
+
 .stars-container {
     position: fixed;
     width: 100%;
@@ -89,7 +89,7 @@ body {
     50% { opacity: 1; transform: scale(1); }
 }
 
-/* Generating multiple stars with different sizes and animations */
+
 .star:nth-child(1) { --twinkle-duration: 4s; width: 2px; height: 2px; top: 10%; left: 20%; }
 .star:nth-child(2) { --twinkle-duration: 3s; width: 3px; height: 3px; top: 30%; left: 40%; }
 .star:nth-child(3) { --twinkle-duration: 5s; width: 2px; height: 2px; top: 50%; left: 60%; }
@@ -99,7 +99,7 @@ body {
 .star:nth-child(7) { --twinkle-duration: 5.5s; width: 2px; height: 2px; top: 60%; left: 30%; }
 .star:nth-child(8) { --twinkle-duration: 4s; width: 3px; height: 3px; top: 80%; left: 50%; }
 
-/* Enhanced Cyber-AI Circle */
+
 .cyber-ai-circle {
     width: 400px;
     height: 400px;
@@ -115,7 +115,7 @@ body {
     50% { box-shadow: 0 0 40px rgba(59, 130, 246, 0.3); }
 }
 
-/* Circuit Lines */
+
 .circuit-lines {
     position: absolute;
     width: 100%;
@@ -144,7 +144,7 @@ body {
     to { transform: translateX(-200%); }
 }
 
-/* Brain Network Animation */
+
 .brain-network {
     position: absolute;
     width: 60%;
@@ -180,7 +180,7 @@ body {
     50% { opacity: 0.8; }
 }
 
-/* Lock Animation */
+
 .cyber-lock {
     position: absolute;
     width: 40px;
@@ -196,7 +196,6 @@ body {
     50% { transform: translate(-50%, -60%) scale(1.1); }
 }
 
-/* Rotating Border */
 .cyber-ai-circle::before {
     content: '';
     position: absolute;
@@ -215,7 +214,7 @@ body {
     100% { transform: rotate(360deg); }
 }
 
-/* Welcome Box Animation */
+
 .welcome-box {
     animation: float 6s ease-in-out infinite, glowPulse 4s infinite;
 }
@@ -230,7 +229,7 @@ body {
     50% { box-shadow: 0 0 40px rgba(59, 130, 246, 0.3); }
 }
 
-/* Navigation */
+
 .navbar {
     position: fixed;
     top: 0;
