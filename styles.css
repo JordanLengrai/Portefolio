@@ -101,13 +101,25 @@ body {
 
 
 .cyber-ai-circle {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
     width: 400px;
     height: 400px;
     background: radial-gradient(circle at center, rgba(139, 92, 246, 0.1) 0%, rgba(59, 130, 246, 0.05) 100%);
     border-radius: 50%;
-    position: relative;
-    overflow: hidden;
     animation: pulseGlow 4s infinite ease-in-out;
+}
+
+.profil-img {
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+    border-radius: 50%;
+    z-index: 2;
 }
 
 @keyframes pulseGlow {
